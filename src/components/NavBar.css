@@ -1,38 +1,29 @@
-.main-container {
-
-    background: white;
-    width: 100%;
-    height: 50px;
-    padding-bottom: 1.5rem;
-    margin: 0 auto;
-
+.main-container{
+    padding: 1vh 6vw;
+    background-color: rgb(250,250,250);
 }
 
-.brand {
-    margin-left: 10rem;
-    font-size: 3rem;
-    font-weight: bold;
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #mainn {
     text-decoration: none;
     color: rgb(255, 102, 0);
+    font-size: 2vw;
+    font-weight: bold;
 }
 
 nav ul {
-
     list-style: none;
     display: flex;
-    margin-right: 10rem;
 }
 
-
-
 nav ul li {
-
-    padding: 1.5rem;
-    position: relative;
-    letter-spacing: 2px;
     color: gray;
-
+    padding: 0vh 1vw;
+    font-size: 1vw;
 }

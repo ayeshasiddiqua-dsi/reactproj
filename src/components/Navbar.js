@@ -6,7 +6,7 @@ export class Navbar extends Component {
         return (
             <div className="main-container">
                 <nav>
-                    <h1 className="brand"><a href="" id="mainn">DesignBoost</a></h1>
+                    <h1><a href="" id="mainn">DesignBoost</a></h1>
                     <ul>
                         <li>HOME</li>
                         <li>ABOUT</li>

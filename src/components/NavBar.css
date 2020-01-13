@@ -1,9 +1,10 @@
 .main-container{
-    padding: 1vh 6vw;
+    padding: 0 6vw;
     background-color: rgb(250,250,250);
 }
 
 nav{
+    padding: 1vh 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

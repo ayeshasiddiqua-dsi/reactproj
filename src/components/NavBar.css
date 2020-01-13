@@ -1,17 +1,21 @@
 .main-container {
 
-    background: white;
+    background:blueviolet;
+    display:flex;
     width: 100%;
-    height: 50px;
+    height: 60px;
     padding-bottom: 1.5rem;
     margin: 0 auto;
+    
 
 }
 
 .brand {
-    margin-left: 10rem;
+    /*margin-left: 10rem;*/
     font-size: 3rem;
     font-weight: bold;
+    text-align: left;
+    
 }
 
 #mainn {
@@ -23,16 +27,30 @@ nav ul {
 
     list-style: none;
     display: flex;
-    margin-right: 10rem;
+    /*margin-right: 10rem;*/
+    float:right;
+    width:100%;
+    justify-content: flex-end;
+    /*align-items:flex-start;*/
+    
 }
 
 
 
 nav ul li {
 
+    
     padding: 1.5rem;
     position: relative;
     letter-spacing: 2px;
-    color: gray;
+    color: white;
+    border-style:solid;
+    border-color:blueviolet blueviolet blueviolet blueviolet
+    
 
+}
+
+nav ul li:hover {
+    color:skyblue;
+    border-color: blueviolet blueviolet skyblue blueviolet;
 }

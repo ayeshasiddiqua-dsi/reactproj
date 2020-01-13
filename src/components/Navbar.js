@@ -4,8 +4,8 @@ import './NavBar.css';
 export class Navbar extends Component {
     render() {
         return (
-            <div className="main-container">
-                <nav>
+            <div >
+                <nav className="main-container">
                     <h1 className="brand"><a href="" id="mainn">DesignBoost</a></h1>
                     <ul>
                         <li>HOME</li>
